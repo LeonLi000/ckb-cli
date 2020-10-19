@@ -10,6 +10,7 @@ pub mod tui;
 pub mod tx;
 pub mod util;
 pub mod wallet;
+pub mod ckb_bridge;
 
 #[cfg(unix)]
 pub use self::tui::TuiSubCommand;
